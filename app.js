@@ -10,7 +10,7 @@ function bgColor(btn) {
     document.body.style.backgroundColor = `rgb(${r}, ${g}, ${b})`
     para.innerText = `Rgb code of the color is : rgb(${r}, ${g}, ${b})`
 }
-function copyRgb(btn) {
+function copyRgbCode(btn) {
     btn.innerHTML = '<i class="fa-solid fa-check"></i>'
     navigator.clipboard.writeText(rgb)
 
