@@ -1,7 +1,7 @@
 //Color Generator
 let para = document.getElementById("para")
 let rgb = ""
-function change(btn) {
+function bgColor(btn) {
     btn.nextElementSibling.innerHTML = '<i class="fa-regular fa-copy"></i>'
     let r = Math.floor(Math.random() * 257)
     let g = Math.floor(Math.random() * 257)
