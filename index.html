@@ -12,9 +12,9 @@
 <body>
     <div class="container">
         <h2>BG Color Generator</h2>
-        <p id="para">Generate a random RGB color code</p>
+        <!-- <p id="text">Generate a random RGB color code</p> -->
         <div class="buttons">     
-            <button class="btn" onclick="change(this)">
+            <button class="btn" onclick="colorSwitch(this)">
                 <svg height="24" width="24" fill="#FFFFFF" viewBox="0 0 24 24" data-name="Layer 1" id="Layer_1"
                 class="sparkle">
                 <path
@@ -23,10 +23,10 @@
         </svg>
         <span class="text">Generate</span>
     </button>
-        <button id="copyBtn" onclick="copyRgb(this)"><i class="fa-regular fa-copy"></i></button>
+        <button id="copyIcon" onclick="colorCode(this)"><i class="fa-regular fa-copy"></i></button>
     </div>
     </div>
-    <script src="app.js"></script>
+    
 </body>
-
+<script src="app.js"></script>
 </html>
