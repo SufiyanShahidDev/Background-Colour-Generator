@@ -1,4 +1,4 @@
- /* body {
+ body {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -87,4 +87,4 @@
  .btn:hover .sparkle {
    fill: white;
    transform: scale(1.1);
- } */
+ }
