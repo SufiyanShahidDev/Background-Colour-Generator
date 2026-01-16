@@ -1,7 +1,7 @@
 //Color Generator
 let text = document.getElementById("text")
 let rgbCode = ""
-// function colorSwitch(btn) {
+function colorSwitch(btn) {
     btn.nextElementSibling.innerHTML = '<i class="fa-regular fa-copy"></i>'
     let g = Math.floor(Math.random() * 255)
     let r = Math.floor(Math.random() * 255)
